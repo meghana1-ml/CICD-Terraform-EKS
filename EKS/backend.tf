@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "mytodoappbucket"
+    bucket = "meghanashiva"
     key    = "eks/terraform.tfstate"
     region = "us-east-2"
   }
